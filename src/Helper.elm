@@ -6,7 +6,7 @@ import Html.Attributes
 
 joinWords : String -> String -> String
 joinWords word1 word2 =
-    word1 ++ " " ++ word2
+    word1 ++ word2
 
 
 isUpperChars : List Char -> List Bool
