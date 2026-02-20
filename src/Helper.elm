@@ -4,8 +4,8 @@ import Html
 import Html.Attributes
 
 
-joinwords : String -> String -> String
-joinwords word1 word2 =
+joinWords : String -> String -> String
+joinWords word1 word2 =
     word1 ++ " " ++ word2
 
 
